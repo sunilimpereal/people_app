@@ -1,0 +1,33 @@
+{
+  "name": "people-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "@hapi/inert": "^7.1.0",
+    "@hapi/vision": "^7.0.3",
+    "fast-csv": "^4.3.6",
+    "fs": "0.0.1-security",
+    "good": "^8.1.2",
+    "good-console": "^8.0.0",
+    "good-file": "^6.0.1",
+    "good-squeeze": "^5.1.0",
+    "hapi": "^18.1.0",
+    "hapi-swagger": "^17.1.0",
+    "joi": "^17.10.1",
+    "mysql2": "^3.6.0",
+    "nodemon": "^3.0.1",
+    "sequelize": "^6.32.1"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.1"
+  }
+}
